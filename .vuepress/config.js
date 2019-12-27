@@ -7,6 +7,7 @@
 const router = require('./router');
 
 module.exports = {
+    port: 8080,
     smoothScroll: true,
     title: '需要你在config.js里单独配的标题',
     themeConfig: {
