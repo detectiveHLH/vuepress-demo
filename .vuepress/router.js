@@ -9,14 +9,14 @@
 let data = [
     {
         'title': '类别A',
-        'path': '/groupA/',
+        'link': '/groupA/',
         'children': [
             '类别A的李四',
         ]
     },
     {
         'title': '类别B',
-        'path': '/groupB/',
+        'link': '/groupB/',
         'children': [
             '类别B的张三',
         ]

@@ -1,28 +1,15 @@
 {
   "name": "vuepress-demo",
   "version": "1.0.0",
-  "description": "A demo for vue-press. This project helps you start your vue-press more efficiently.",
   "main": "index.js",
-  "scripts": {
-    "start": "vuepress dev",
-    "build": "vuepress build .",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/detectiveHLH/vuepress-demo.git"
-  },
-  "keywords": [
-    "vuepress"
-  ],
-  "author": "hulunhao@gmail.com",
+  "repository": "git@github.com:detectiveHLH/vuepress-demo.git",
+  "author": "leonsh",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/detectiveHLH/vuepress-demo/issues"
+  "devDependencies": {
+    "vuepress": "^1.9.9"
   },
-  "homepage": "https://github.com/detectiveHLH/vuepress-demo#readme",
-  "dependencies": {
-    "vuepress": "^1.2.0",
-    "vuepress-plugin-smooth-scroll": "0.0.9"
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   }
 }
